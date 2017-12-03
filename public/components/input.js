@@ -21,7 +21,7 @@ var Input = function (_React$Component) {
       newestPost: {},
       username: '',
       sentences: [{ 'text': 'I am a dog', 'allSentiments': ['confident: 0.5', 'angry: 0.2'] }, { 'text': 'I am a cat', 'allSentiments': ['happy: 0.4'] }, { 'text': 'I am a turtle', 'allSentiments': ['slow: 0.6', 'confident: 0.8'] }],
-      watsonScores: [3, 5, 3, 7, 8, 1, 9]
+      watsonScores: [0.65, .44, 0.15, 0.84, 0.53, 0.25, 0.6]
 
     };
     _this.handleTitle = _this.handleTitle.bind(_this);
@@ -133,7 +133,7 @@ var Input = function (_React$Component) {
 
         tooltip: {
           shared: true,
-          pointFormat: '<span style="color:{series.color}">{series.name}: <b>{point.y:,.0f}</b><br/>'
+          pointFormat: '<span style="color:{series.color}">{series.name}: <b>{point.y:,.2f}</b><br/>'
         },
 
         legend: {
