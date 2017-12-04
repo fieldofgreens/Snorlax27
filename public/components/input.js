@@ -23,6 +23,7 @@ var Input = function (_React$Component) {
       sentences: [{ 'text': 'I am a dog', 'allSentiments': ['confident: 0.5', 'angry: 0.2'] }, { 'text': 'I am a cat', 'allSentiments': ['happy: 0.4'] }, { 'text': 'I am a turtle', 'allSentiments': ['slow: 0.6', 'confident: 0.8'] }],
       watsonScores: [null, null, null, null, null, null, null]
 
+
     };
     _this.handleTitle = _this.handleTitle.bind(_this);
     _this.handlePost = _this.handlePost.bind(_this);

@@ -12,6 +12,7 @@ class Input extends React.Component {
       watsonScores: [null, null, null, null, null, null, null]
 
 
+
     }
     this.handleTitle = this.handleTitle.bind(this);
     this.handlePost = this.handlePost.bind(this);
