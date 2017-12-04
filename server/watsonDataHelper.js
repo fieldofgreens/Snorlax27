@@ -70,7 +70,7 @@ var overallSentimentAnalysis = function(rawData, callback) {
     if (sentiments.length) {
       sentiments.map(tone => {
         if (hash.hasOwnProperty(tone.tone_id)) {
-          scores[hash[tone.tone_id]] = tone.score.toFixed(2);
+          scores[hash[tone.tone_id]] = Number(tone.score.toFixed(4)*100);
         }
       });
     }
