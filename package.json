@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx babel client --watch --out-dir public --presets=es2015,react",
     "start": "node --inspect server/server.js",
-    "startdev": "nodemon --inspect server/server.js",
-    "travisbuild": "npx babel client --out-dir public --presets=es2015,react"
+    "startdev": "nodemon --inspect server/server.js"
   },
   "engines": {
     "node": "6.11.5"
@@ -23,7 +22,6 @@
     "babel-preset-react": "^6.23.0",
     "express-session": "^1.15.6",
     "express-sessions": "^1.0.6",
-    "npx": "^9.7.1",
     "react-bootstrap": "^0.31.5"
   },
   "dependencies": {
